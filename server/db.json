@@ -1,184 +1,148 @@
 {
-  "houses": [
+  "products": [
     {
       "id": "1",
-      "title": "Domek na drzewie wśród zwierząt",
-      "location": {
-        "country": "Poland",
-        "city": "Wychodne"
-      },
+      "title": "Organic Vitamin D",
+      "category": "Supplements",
+      "price": "25.00€",
+      "inventory": "In Stock",
+      "body": "Vitamin D is known to contribute to the protection of cells against oxidative stress, bone health and a healthy immune system. Although vitamin D has been shown to be essential for bones and normal immune function, adequate levels of vitamin D have also been linked to the prevention and control of a variety of diseases, including cancer, depression and weight gain. Vitamin D deficiency is a widespread problem around the world, but it can be easily solved with a raw supplement that is rich in natural and organic vitamin D from nature's own sources.",
       "images": [
-        "https://a0.muscache.com/im/pictures/3a5a705d-af79-4ae3-8997-de37198b014b.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/de62f2d3-5901-46b6-8e51-ba39a0582122.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/8920865b-d2e0-4157-91e1-ba5081705d3f.jpg?im_w=1440"
-      ],
-      "price": "32€",
-      "rating": 4.79
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-D-1.webp",
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-D-1024x1024-1.jpg",
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-D-3.webp"
+      ]
     },
     {
       "id": "2",
-      "title": "Trobelė",
-      "location": {
-        "country": "Latvija",
-        "city": "Sēja"
-      },
+      "title": "Organic Vitamin C",
+      "category": "Supplements",
+      "price": "30.00€",
+      "inventory": "In Stock",
+      "body": "Vitamin C is necessary for the formation and functioning of the body's connective tissue. The vitamin is an antioxidant that can inactivate free radicals and helps protect cells and maintain normal immune system function. Each daily serving provides 225% of the RDI of vitamin C (180 ng) and is rich in polyphenols, which, along with other dietary antioxidants such as vitamin C, are antioxidants that protect the body's tissues from oxidative stress and related diseases such as such as cancer, coronary heart disease and inflammation.",
       "images": [
-        "https://a0.muscache.com/im/pictures/8dec2f7c-1c3e-402e-baea-4fd72af59621.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/1c1c4008-d617-4e9f-b5e3-aa38bc8c5c9a.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-43105686/original/b87b8ba8-d3d8-4567-8aa0-ce2a8e8a0dea.jpeg?im_w=1440"
-      ],
-      "price": "137€",
-      "rating": 4.97
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-C1.webp",
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-1200x1198-1.jpg",
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-C3.jpeg"
+      ]
     },
     {
       "id": "3",
-      "title": "Gražus kaimiškas medinis rąstų namas Skriveri",
-      "location": {
-        "country": "Latvija",
-        "city": "Skrīveri"
-      },
+      "title": "Hemp Chlorophyll",
+      "category": "Supplements",
+      "price": "10.00€",
+      "inventory": "In Stock",
+      "body": "Cannabis is a healing force, and chlorophyll is just one of the plant's many beneficial components. As an excellent source of vitamins A, C, E and K and beta-carotene, hemp chlorophyll is also a powerful antioxidant and provides vital minerals such as magnesium, iron, potassium, calcium and essential fatty acids. Chlorophyll is also rich in live enzymes that help purify the blood and repair and replenish red blood cells, as well as increasing the blood's ability to carry more oxygen. Chlorophyll is responsible for the green pigment in the plant, and since hemp is one of the greenest greens, it is very high in chlorophyll. 100% natural and organic, just as nature intended.",
       "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-38998240/original/f48a24c7-53d5-4e65-a041-08f1742096d0.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/fd94effa-da96-4b2d-97ee-39bab24ad470.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/14cf87f4-cb04-49a1-b733-a43edfcff1c7.jpg?im_w=1440"
-      ],
-      "price": "66€",
-      "rating": 4.62
+        "https://endoca.lt/wp-content/uploads/2022/03/Clorophyl.jpg"
+      ]
     },
     {
       "id": "4",
-      "title": "Virš Ąžuolų - Forest SPA",
-      "location": {
-        "country": "Lietuva",
-        "city": "Paplatelės"
-      },
+      "title": "Hemp Chewing Gum",
+      "category": "Foods",
+      "price": "8.00€",
+      "inventory": "In Stock",
+      "body": "Endoca Cannabidiol Chewing Gum is a wonderful way to enjoy the benefits of the hemp plant and avoid the environmental hazards associated with traditional chewing gum. Our rubber, which is 100% biodegradable, will simply break down and dissolve when thrown away. Without artificial colors or preservatives. Endoca gum increases the absorption of cannabidiol substances through oral absorption and is sweetened with mint and xylitol flavor.",
       "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-49434096/original/3fcc350c-ac5f-4464-b757-4f43ef33c89f.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-49434096/original/97836fa1-c200-4899-a9d8-a1d1b013f15c.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-49434096/original/551bca7c-e035-45a7-98fe-a09108083c93.jpeg?im_w=1440"
-      ],
-      "price": "92€",
-      "rating": 5.0
+        "https://endoca.lt/wp-content/uploads/2022/03/1-6.webp",
+        "https://endoca.lt/wp-content/uploads/2022/03/2-5.jpg",
+        "https://endoca.lt/wp-content/uploads/2022/03/6-5.jpg"
+      ]
     },
     {
       "id": "5",
-      "title": "Ezernams",
-      "location": {
-        "country": "Latvija",
-        "city": "Ķeipene"
-      },
+      "title": "Himalayan Indica Flower",
+      "category": "Foods",
+      "price": "15.00€",
+      "inventory": "In Stock",
+      "body": "A high CANNABIDIOLIS cannabis flower strain with a floral and citrus flavor and aroma. The Endoca Premium Quality Indica dominant cannabis strain is believed to originate from the Himalayas and is adapted to the northern European climate in the Endoca gene bank. Rich in aromatic terpenes and cannabinoids. High levels of cannabidiol make this flower unique, with a sweet aftertaste of sandalwood, cedar and pine. Specially selected by our master cannabis breeder who has developed this new type of cannabis strain through decades of experience in the field.",
       "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-37926580/original/eb219019-41e1-4d99-a499-994b082b887c.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-37926580/original/f323a639-bc6b-43fd-b479-668926601a68.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-37926580/original/62837d3d-cbe2-4036-97ee-18797dcef56b.jpeg?im_w=1440"
-      ],
-      "price": "94€",
-      "rating": 4.97
+        "https://endoca.lt/wp-content/uploads/2022/03/himalayan-indica-flower-grinded-front.jpeg"
+      ]
     },
     {
       "id": "6",
-      "title": "Jaukus namelis miške",
-      "location": {
-        "country": "Latvija",
-        "city": "MALPILS NOVADS"
-      },
+      "title": "Organic Hemp Seed Oil",
+      "category": "Foods",
+      "price": "10.00€",
+      "inventory": "In Stock",
+      "body": "Endoca Pure Organic Hemp Seed Oil is made from the highest quality non-GMO seeds. Cold pressed and carefully prepared in our GGP certified laboratory to ensure the highest quality. This mild and nutty oil is rich in healthy omega 3, 6 and 9 and can be used to flavor salads or cold dishes. An ideal option for vegans and vegetarians to enrich their diet with nutrients.",
       "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-5723372/original/87eeb90f-2545-419e-b9a6-03c70db417e5.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/0573a97a-32be-429d-805c-768c39f76be6.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/0b18e267-3109-4027-a60e-10816bf2fbc9.jpg?im_w=1440"
-      ],
-      "price": "135€",
-      "rating": 5.0
+        "https://endoca.lt/wp-content/uploads/2022/03/HEMP-SEED-OIL-1.webp",
+        "https://endoca.lt/wp-content/uploads/2022/03/HEMP-SEED-OIL-2.jpg",
+        "https://endoca.lt/wp-content/uploads/2022/03/HEMP-SEED-OIL-5-2-1024x1024-1.jpg"
+      ]
     },
     {
       "id": "7",
-      "title": "Atostogų namai Elkos kalne",
-      "location": {
-        "country": "Latvija",
-        "city": "Skujene"
-      },
+      "title": "Hemp Soap",
+      "category": "Personal Care",
+      "price": "8.00€",
+      "inventory": "In Stock",
+      "body": "The unique formula is created using the highest quality hemp in Endoca's laboratory to achieve a heavenly feel, smell and texture. Don't confuse it with regular hand soap. Endoca hemp soap is suitable for all skin types, can be used all over the body and has regenerative properties. Compared to other oils, hemp seed oil is especially rich in omega fatty acids, making it the best choice for nourishing and protecting the skin.",
       "images": [
-        "https://a0.muscache.com/im/pictures/c796ef33-b2c9-4a0a-8238-26617f3a9bdb.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/bdf48b9a-6112-4c6d-a874-1514a79d3a60.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-43620298/original/2f3f0463-9ef7-4ee7-a1f7-898ac3325d5e.jpeg?im_w=1440"
-      ],
-      "price": "60€",
-      "rating": 4.98
+        "https://endoca.lt/wp-content/uploads/2022/11/SOAP-1.jpeg",
+        "https://endoca.lt/wp-content/uploads/2022/11/SOAP-3.jpeg",
+        "https://endoca.lt/wp-content/uploads/2022/11/SOAP-2.jpeg"
+      ]
     },
     {
       "id": "8",
-      "title": "Sodyba BIČIULIŲ NAMAI",
-      "location": {
-        "country": "Lietuva",
-        "city": "Plateliai"
-      },
+      "title": "Natural Deodorant",
+      "category": "Personal Care",
+      "price": "14.00€",
+      "inventory": "In Stock",
+      "body": "Our natural deodorant saturated with cannabidiol will protect your armpits from bad odor and bacteria. Due to the texture of the paste enriched with organic hemp extracts and natural lime aroma, your armpits will smell delicious and be soothed. Cannabidiol is a powerful antioxidant that soothes underarm skin, reduces irritation and naturally protects without inhibiting the release of toxins. Organic amaranth starch and baking soda prevent bad odor. Organic shea butter and coconut oil moisturize and nourish sensitive skin. Use our deodorant every day to reduce excessive sweating and bad breath. Contains no aluminum, parabens, sulfates or chemicals.",
       "images": [
-        "https://a0.muscache.com/im/pictures/7fb0c126-5c51-4d3e-b283-382fafe3329a.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-44229733/original/4f172d56-b97e-4eab-ac26-23a2a3111c60.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-44229733/original/94042e24-8afa-45e9-8c87-7d9155244dfb.jpeg?im_w=1440"
-      ],
-      "price": "90€",
-      "rating": 5.0
+        "https://endoca.lt/wp-content/uploads/2022/03/1-3.webp",
+        "https://endoca.lt/wp-content/uploads/2022/03/4-3.jpg",
+        "https://endoca.lt/wp-content/uploads/2022/03/8.jpg"
+      ]
     },
     {
       "id": "9",
-      "title": "Unikalus poilsio namelis Elmau centre, 100 m nuo trobelės",
-      "location": {
-        "country": "Austrija",
-        "city": "Ellmau"
-      },
+      "title": "Hemp Face & Body Oil",
+      "category": "Personal Care",
+      "price": "35.00€",
+      "inventory": "In Stock",
+      "body": "Pamper your face and body with nourishing cannabidiol-infused apricot oil for smooth, glowing skin from head to toe. The lightweight oil formula, derived from organic apricot kernel and hemp extracts, absorbs easily to soothe and calm dehydrated skin. Cannabidiol, fatty acids, vitamin A and vitamin E are antioxidants that protect the skin from dryness. Use as the final step in your daily skin care routine to lock in moisture and achieve a healthy glow. Chemicals, parabens and mineral oil are avoided.",
       "images": [
-        "https://a0.muscache.com/im/pictures/e8b6e3c2-df2e-4b9c-913c-c21c83b10426.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/3dee0a89-0336-42a0-ac91-03d3861143fa.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/27b7bb4e-fda9-4e5f-840a-04ffb0922993.jpg?im_w=1440"
-      ],
-      "price": "464€",
-      "rating": 5.0
+        "https://endoca.lt/wp-content/uploads/2022/03/1.webp"
+      ]
     },
     {
       "id": "10",
-      "title": "Gamtos rezidencija - Bondo slėnio gamtinis rezervatas",
-      "location": {
-        "country": "Italija",
-        "city": "Brescia"
-      },
+      "title": "Hemp Oil Extract for Dogs",
+      "category": "For Dogs",
+      "price": "99.00€",
+      "inventory": "In Stock",
+      "body": "Improve your dog's daily well-being with Endoca Extra Strength Hemp Oil Extract for Large - X Large Dogs and Horses. A 100% organic hemp formula that helps support your companions internal endocannabinoid system that controls pain response, immunity and promotes balance in the body. Use Endoca Hemp Oil Extract to relieve pain, promote calmness and support general well-being. Our 100% natural, non-GMO, cannabidiol extracts are suitable for large dog breeds - size X and larger animals such as horses. Simply add to food or place under the tongue. Enriched with essential omegas, vitamins and minerals.",
       "images": [
-        "https://a0.muscache.com/im/pictures/e69b3403-3d09-4f3f-b997-1a21164d1ee7.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/0abf4095-ef69-4afb-bef6-820e59d23990.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/07b54251-f9b5-490e-8d0e-85afa65b161c.jpg?im_w=1440"
-      ],
-      "price": "144€",
-      "rating": 4.98
+        "https://endoca.lt/wp-content/uploads/2022/03/EkstraktasSunimsZalias.jpg"
+      ]
     },
     {
       "id": "11",
-      "title": "Dangaus detalė, ramybė, gamta ir atsipalaidavimas",
-      "location": {
-        "country": "Rumunija",
-        "city": "Brașov County"
-      },
+      "title": "Raw Hemp Oil for Dogs",
+      "category": "For Dogs",
+      "price": "65.00€",
+      "inventory": "In Stock",
+      "body": "Support your dog's daily well-being with potent raw cannabidiol oil for dogs. An all-natural hemp formula to support your furry friend's internal endocannabinoid system and maintain body balance. Endoca Raw's high strength Cannabidiol+CannabidiolA formula promotes calmness and supports general well-being. Our organic, non-GMO, potent cannabidiol oils are suitable for large breed dogs. Add easily to food or place under the tongue. Rich in essential omegas, vitamins and minerals.",
       "images": [
-        "https://a0.muscache.com/im/pictures/miso/Hosting-37805118/original/58212748-d05c-46c4-9c93-5194e4c6bfb4.jpeg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-37805118/original/05cf0d6f-4608-48c2-8ae0-3fb767ef7380.jpeg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-37805118/original/a9274c1e-7221-4747-9d26-81a490ebed92.jpeg?im_w=1440"
-      ],
-      "price": "70€",
-      "rating": 4.95
+        "https://endoca.lt/wp-content/uploads/2022/03/hemp-oil-drops-for-dogs-strong.webp"
+      ]
     },
     {
       "id": "12",
-      "title": "Alpių namelis su vaizdu į Aukštutinį Valė slėnį",
-      "location": {
-        "country": "Šveicarija",
-        "city": "Wallis"
-      },
+      "title": "Raw Hemp Oil for Dogs",
+      "category": "For Dogs",
+      "price": "22.00€",
+      "inventory": "In Stock",
+      "body": "Support daily well-being with Cannabidiol Raw Oil for Dogs. The all-natural hemp formula supports your dog's endocannabinoid system and promotes body balance. The raw, moderate Cannabidiol+CannabidiolA formula helps support calmness and overall well-being. Our organic, non-GMO, 3% CBD oil is suitable for small to medium sized dogs. Conveniently added to food or placed under the tongue. Packed with essential omegas, vitamins and minerals.",
       "images": [
-        "https://a0.muscache.com/im/pictures/1c1f6334-dfca-4e34-a963-47ec1bbdcf74.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/1d593a62-5dc3-413b-b27d-45bd682b8efa.jpg?im_w=1440",
-        "https://a0.muscache.com/im/pictures/6d77e529-40b5-4dce-bfee-8fcf984bb895.jpg?im_w=1440"
-      ],
-      "price": "180€",
-      "rating": 4.96
+        "https://endoca.lt/wp-content/uploads/2022/03/hemp-oil-drops-for-dogs-medium2.webp"
+      ]
     }
   ]
 }
