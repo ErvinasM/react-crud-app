@@ -8,7 +8,7 @@
       "inventory": "In Stock",
       "body": "Vitamin D is known to contribute to the protection of cells against oxidative stress, bone health and a healthy immune system. Although vitamin D has been shown to be essential for bones and normal immune function, adequate levels of vitamin D have also been linked to the prevention and control of a variety of diseases, including cancer, depression and weight gain. Vitamin D deficiency is a widespread problem around the world, but it can be easily solved with a raw supplement that is rich in natural and organic vitamin D from nature's own sources.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-D-1.webp",
+        "./images/vitamind.png",
         "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-D-1024x1024-1.jpg",
         "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-D-3.webp"
       ]
@@ -21,7 +21,7 @@
       "inventory": "In Stock",
       "body": "Vitamin C is necessary for the formation and functioning of the body's connective tissue. The vitamin is an antioxidant that can inactivate free radicals and helps protect cells and maintain normal immune system function. Each daily serving provides 225% of the RDI of vitamin C (180 ng) and is rich in polyphenols, which, along with other dietary antioxidants such as vitamin C, are antioxidants that protect the body's tissues from oxidative stress and related diseases such as such as cancer, coronary heart disease and inflammation.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-C1.webp",
+        "./images/vitaminc.png",
         "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-1200x1198-1.jpg",
         "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-C3.jpeg"
       ]
@@ -34,7 +34,7 @@
       "inventory": "In Stock",
       "body": "Cannabis is a healing force, and chlorophyll is just one of the plant's many beneficial components. As an excellent source of vitamins A, C, E and K and beta-carotene, hemp chlorophyll is also a powerful antioxidant and provides vital minerals such as magnesium, iron, potassium, calcium and essential fatty acids. Chlorophyll is also rich in live enzymes that help purify the blood and repair and replenish red blood cells, as well as increasing the blood's ability to carry more oxygen. Chlorophyll is responsible for the green pigment in the plant, and since hemp is one of the greenest greens, it is very high in chlorophyll. 100% natural and organic, just as nature intended.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/Clorophyl.jpg"
+        "./images/hempchlorophyll.png"
       ]
     },
     {
@@ -45,7 +45,7 @@
       "inventory": "In Stock",
       "body": "Endoca Cannabidiol Chewing Gum is a wonderful way to enjoy the benefits of the hemp plant and avoid the environmental hazards associated with traditional chewing gum. Our rubber, which is 100% biodegradable, will simply break down and dissolve when thrown away. Without artificial colors or preservatives. Endoca gum increases the absorption of cannabidiol substances through oral absorption and is sweetened with mint and xylitol flavor.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/1-6.webp",
+        "./images/cbdgum.png",
         "https://endoca.lt/wp-content/uploads/2022/03/2-5.jpg",
         "https://endoca.lt/wp-content/uploads/2022/03/6-5.jpg"
       ]
@@ -58,7 +58,7 @@
       "inventory": "In Stock",
       "body": "A high CANNABIDIOLIS cannabis flower strain with a floral and citrus flavor and aroma. The Endoca Premium Quality Indica dominant cannabis strain is believed to originate from the Himalayas and is adapted to the northern European climate in the Endoca gene bank. Rich in aromatic terpenes and cannabinoids. High levels of cannabidiol make this flower unique, with a sweet aftertaste of sandalwood, cedar and pine. Specially selected by our master cannabis breeder who has developed this new type of cannabis strain through decades of experience in the field.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/himalayan-indica-flower-grinded-front.jpeg"
+        "./images/himalayanindicaflower.png"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "inventory": "In Stock",
       "body": "Endoca Pure Organic Hemp Seed Oil is made from the highest quality non-GMO seeds. Cold pressed and carefully prepared in our GGP certified laboratory to ensure the highest quality. This mild and nutty oil is rich in healthy omega 3, 6 and 9 and can be used to flavor salads or cold dishes. An ideal option for vegans and vegetarians to enrich their diet with nutrients.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/HEMP-SEED-OIL-1.webp",
+        "./images/rawhempseedoil.png",
         "https://endoca.lt/wp-content/uploads/2022/03/HEMP-SEED-OIL-2.jpg",
         "https://endoca.lt/wp-content/uploads/2022/03/HEMP-SEED-OIL-5-2-1024x1024-1.jpg"
       ]
@@ -82,7 +82,7 @@
       "inventory": "In Stock",
       "body": "The unique formula is created using the highest quality hemp in Endoca's laboratory to achieve a heavenly feel, smell and texture. Don't confuse it with regular hand soap. Endoca hemp soap is suitable for all skin types, can be used all over the body and has regenerative properties. Compared to other oils, hemp seed oil is especially rich in omega fatty acids, making it the best choice for nourishing and protecting the skin.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/11/SOAP-1.jpeg",
+        "./images/hempsoap.png",
         "https://endoca.lt/wp-content/uploads/2022/11/SOAP-3.jpeg",
         "https://endoca.lt/wp-content/uploads/2022/11/SOAP-2.jpeg"
       ]
@@ -95,7 +95,7 @@
       "inventory": "In Stock",
       "body": "Our natural deodorant saturated with cannabidiol will protect your armpits from bad odor and bacteria. Due to the texture of the paste enriched with organic hemp extracts and natural lime aroma, your armpits will smell delicious and be soothed. Cannabidiol is a powerful antioxidant that soothes underarm skin, reduces irritation and naturally protects without inhibiting the release of toxins. Organic amaranth starch and baking soda prevent bad odor. Organic shea butter and coconut oil moisturize and nourish sensitive skin. Use our deodorant every day to reduce excessive sweating and bad breath. Contains no aluminum, parabens, sulfates or chemicals.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/1-3.webp",
+        "./images/hempdeodorant.png",
         "https://endoca.lt/wp-content/uploads/2022/03/4-3.jpg",
         "https://endoca.lt/wp-content/uploads/2022/03/8.jpg"
       ]
@@ -108,7 +108,7 @@
       "inventory": "In Stock",
       "body": "Pamper your face and body with nourishing cannabidiol-infused apricot oil for smooth, glowing skin from head to toe. The lightweight oil formula, derived from organic apricot kernel and hemp extracts, absorbs easily to soothe and calm dehydrated skin. Cannabidiol, fatty acids, vitamin A and vitamin E are antioxidants that protect the skin from dryness. Use as the final step in your daily skin care routine to lock in moisture and achieve a healthy glow. Chemicals, parabens and mineral oil are avoided.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/1.webp"
+        "./images/faceandbodyoilmild.png"
       ]
     },
     {
@@ -119,7 +119,7 @@
       "inventory": "In Stock",
       "body": "Improve your dog's daily well-being with Endoca Extra Strength Hemp Oil Extract for Large - X Large Dogs and Horses. A 100% organic hemp formula that helps support your companions internal endocannabinoid system that controls pain response, immunity and promotes balance in the body. Use Endoca Hemp Oil Extract to relieve pain, promote calmness and support general well-being. Our 100% natural, non-GMO, cannabidiol extracts are suitable for large dog breeds - size X and larger animals such as horses. Simply add to food or place under the tongue. Enriched with essential omegas, vitamins and minerals.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/EkstraktasSunimsZalias.jpg"
+        "./images/hempoilextract.png"
       ]
     },
     {
@@ -130,7 +130,7 @@
       "inventory": "In Stock",
       "body": "Support your dog's daily well-being with potent raw cannabidiol oil for dogs. An all-natural hemp formula to support your furry friend's internal endocannabinoid system and maintain body balance. Endoca Raw's high strength Cannabidiol+CannabidiolA formula promotes calmness and supports general well-being. Our organic, non-GMO, potent cannabidiol oils are suitable for large breed dogs. Add easily to food or place under the tongue. Rich in essential omegas, vitamins and minerals.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/hemp-oil-drops-for-dogs-strong.webp"
+        "./images/rawhempoilmedium.png"
       ]
     },
     {
@@ -141,7 +141,7 @@
       "inventory": "In Stock",
       "body": "Support daily well-being with Cannabidiol Raw Oil for Dogs. The all-natural hemp formula supports your dog's endocannabinoid system and promotes body balance. The raw, moderate Cannabidiol+CannabidiolA formula helps support calmness and overall well-being. Our organic, non-GMO, 3% CBD oil is suitable for small to medium sized dogs. Conveniently added to food or placed under the tongue. Packed with essential omegas, vitamins and minerals.",
       "images": [
-        "https://endoca.lt/wp-content/uploads/2022/03/hemp-oil-drops-for-dogs-medium2.webp"
+        "./images/rawhempoilstrong.png"
       ]
     }
   ]

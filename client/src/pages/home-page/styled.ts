@@ -3,9 +3,9 @@ import { styled, Stack } from '@mui/material';
 export const ProductsGrid = styled('div')(({ theme }) => ({
   display: 'grid',
   gridTemplateColumns: 'repeat(1, 1fr)',
-  gap: theme.spacing(2),
-  padding: theme.spacing(2),
-  maxWidth: theme.breakpoints.values.xl,
+  gap: '30px',
+  padding:'30px',
+  maxWidth: theme.breakpoints.values.lg,
   margin: 'auto',
   [theme.breakpoints.up('sm')]: {
     gridTemplateColumns: 'repeat(2, 1fr)',
@@ -21,7 +21,6 @@ export const ProductsGrid = styled('div')(({ theme }) => ({
 export const ProductCardContent = styled(Stack)(({ theme }) => ({
   flexGrow: 1,
   width: '100%',
-  padding: theme.spacing(1, 2, 2),
 }));
 
 export const ProductCardRating = styled('div')(({ theme }) => ({
