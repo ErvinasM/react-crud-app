@@ -21,10 +21,17 @@ const fetchProduct = async (id: string | number) => {
   return response.data;
 };
 
+const fetchProductsByCategory = async (category: string | number) => {
+  const response = await api.get<ProductModel>(`/products?category=${category}`);
+
+  return response.data;
+};
+
 
 const ApiService = {
   fetchProducts,
   fetchProduct,
+  fetchProductsByCategory,
 };
 
 export default ApiService;
