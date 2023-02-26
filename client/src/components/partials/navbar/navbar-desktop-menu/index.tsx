@@ -4,6 +4,15 @@ import {
   ClickAwayListener,
   useMediaQuery,
   Theme,
+  Typography,
+  IconButton,
+  Menu,
+  MenuIcon,
+  Container,
+  Button,
+  Tooltip,
+  MenuItem,
+  AdbIcon
 } from '@mui/material';
 import NavbarDesktopLink from './navbar-desktop-link';
 import { extendBr, mainLinks, linksGroups } from '../navbar-data';
@@ -20,6 +29,25 @@ const NavbarDesktopMenu = () => {
       alignSelf: 'stretch',
     }}
     >
+      <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="/"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+              alignItems: 'center',
+            }}
+          >
+            ENDOCA
+          </Typography>
+
       {mainLinks.map(({ to, text }) => (
         <NavbarDesktopLink key={to} to={to}>
           {text}

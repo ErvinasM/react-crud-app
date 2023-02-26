@@ -15,8 +15,16 @@ const fetchProducts = async () => {
   return response.data;
 };
 
+const fetchProduct = async (id: string | number) => {
+  const response = await api.get<ProductModel>(`/products/${id}`);
+
+  return response.data;
+};
+
+
 const ApiService = {
   fetchProducts,
+  fetchProduct,
 };
 
 export default ApiService;

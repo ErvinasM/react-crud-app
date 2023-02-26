@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar } from '@mui/material';
+import { AppBar, Toolbar} from '@mui/material';
 import { extendBr } from './navbar-data';
 import NavbarDesktopMenu from './navbar-desktop-menu';
 import NavbarMobileMenu from './navbar-mobile-menu';
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <AppBar position="fixed">
-      <Toolbar sx={{ justifyContent: { xs: 'flex-end', [extendBr]: 'flex-start' } }}>
+      <Toolbar sx={{ justifyContent: { xs: 'flex-end', [extendBr]: 'space-between' }, backgroundColor: '#323232' }}>
         <NavbarDesktopMenu />
         <NavbarToggler isDrawerOpen={isDrawerOpen} toggleDrawer={toggleDrawer} />
         <NavbarMobileMenu isDrawerOpen={isDrawerOpen} closeDrawer={closeDrawer} />

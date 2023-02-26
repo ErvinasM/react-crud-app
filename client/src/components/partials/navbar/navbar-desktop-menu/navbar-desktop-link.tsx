@@ -5,6 +5,7 @@ import { navbarDesktopItemStyles } from './styles';
 const NavbarDesktopLink = styled(NavLink)(({ theme }) => ({
   ...navbarDesktopItemStyles(theme),
   textDecoration: 'none',
+  fontWeight: 300,
 }));
 
 export default NavbarDesktopLink;

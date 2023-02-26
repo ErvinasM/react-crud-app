@@ -33,9 +33,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
       <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between' }}>
         <Typography sx={{ fontSize: '1rem', fontWeight: 400 }}>{price}</Typography>
-        <Button onClick={() => navigate(routes.SingleProductPage.createLink(id))} color="primary" variant="contained" 
-        sx={{ mt: 1, borderRadius: '50px', fontSize: '0.6rem', minWidth: '0', p: '0.6rem' }}>
-        <LaunchOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Button>
+        <Button onClick={() => navigate(routes.SingleProductPage.createLink(id))} color="primary" variant="contained" sx={{ mt: 1, borderRadius: '50px', fontSize: '0.6rem', minWidth: '0', p: '0.6rem' }}><LaunchOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Button>
       </Box>
 
     </Styled.ProductCardContent>

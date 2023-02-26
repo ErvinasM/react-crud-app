@@ -12,7 +12,8 @@ export type LinksGroup = {
 };
 
 export const mainLinks: Link[] = [
-  { to: routes.HomePage, text: 'Home' },
+  { to: routes.HomePage, text: 'Shop' },
+  { to: routes.AdminPage, text: 'Admin Dashboard' },
 ];
 
 export const linksGroups: LinksGroup[] = [];

@@ -5,7 +5,7 @@ import routes from 'navigation/routes';
 import * as Styled from './styled';
 import ProductCard from './product-card';
 
-const HomePage = () => {
+const AdminPage = () => {
   const [products, setProducts] = React.useState<ProductModel[]>([]);
   const navigate = useNavigate();
 
@@ -23,4 +23,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default AdminPage;
