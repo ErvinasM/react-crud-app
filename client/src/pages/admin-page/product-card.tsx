@@ -1,5 +1,6 @@
 import React from 'react';
-import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
+import EditOutlinedIcon from '@mui/icons-material/EditOutlined';
+import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import {
   Box,
   Typography,
@@ -23,7 +24,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   const navigate = useNavigate();
   return (
-  <Stack sx={{ border: 1.6, borderColor: '#efefef', borderRadius: '15px', p: 3, gap: 1, boxShadow: '#f4f4f4a1 0px 0px 7px 1px', cursor: 'pointer' }}>
+  <Stack sx={{ border: 1.6, borderColor: '#efefef', borderRadius: '15px',
+   p: 2, gap: 1, boxShadow: '#f4f4f4a1 0px 0px 7px 1px', cursor: 'pointer' }}>
     <Img src={images[0]} alt="" sx={{ aspectRatio: '1.2', width: 1, borderRadius: '15px', objectFit: 'contain', background: '#f9f8f8' }} />
     <Styled.ProductCardContent>
       <Box sx={{ flexGrow: 1 }}>
@@ -33,7 +35,14 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
       <Box sx={{ display: 'flex', flexGrow: 1, flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between' }}>
         <Typography sx={{ fontSize: '1rem', fontWeight: 400 }}>{price}</Typography>
-        <Button onClick={() => navigate(routes.SingleProductPage.createLink(id))} color="primary" variant="contained" sx={{ mt: 1, borderRadius: '50px', fontSize: '0.6rem', minWidth: '0', p: '0.6rem' }}><LaunchOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Button>
+        
+        <Box sx={{display: 'flex', gap: '5px'}}>
+          <Styled.EditButton onClick={() => navigate(routes.SingleProductPage.createLink(id))}>
+          <EditOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Styled.EditButton>
+
+          <Styled.DeleteButton onClick={() => navigate(routes.SingleProductPage.createLink(id))}>
+          <DeleteOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Styled.DeleteButton>
+        </Box>
       </Box>
 
     </Styled.ProductCardContent>

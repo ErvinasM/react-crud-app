@@ -1,20 +1,20 @@
-import { styled, Stack } from '@mui/material';
+import { styled, Stack, Button } from '@mui/material';
 
 export const ProductsGrid = styled('div')(({ theme }) => ({
   display: 'grid',
   gridTemplateColumns: 'repeat(1, 1fr)',
-  gap: '30px',
-  padding:'30px',
+  gap: '20px',
+  padding:'20px',
   maxWidth: theme.breakpoints.values.lg,
   margin: 'auto',
   [theme.breakpoints.up('sm')]: {
     gridTemplateColumns: 'repeat(2, 1fr)',
   },
   [theme.breakpoints.up('md')]: {
-    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridTemplateColumns: 'repeat(4, 1fr)',
   },
   [theme.breakpoints.up('lg')]: {
-    gridTemplateColumns: 'repeat(4, 1fr)',
+    gridTemplateColumns: 'repeat(5, 1fr)',
   },
 }));
 
@@ -30,4 +30,25 @@ export const ProductCardRating = styled('div')(({ theme }) => ({
   gap: '0.1em',
   color: theme.palette.warning.main,
   fontWeight: 500,
+}));
+
+export const EditButton  = styled(Button)(({ theme }) => ({
+  mt: 1,
+  borderRadius: '4px',
+  fontSize: '0.6rem',
+  minWidth: '0',
+  p: '0.6rem',
+  color: 'white',
+  background: 'orange',
+}));
+
+
+export const DeleteButton  = styled(Button)(({ theme }) => ({
+  mt: 1,
+  borderRadius: '4px',
+  fontSize: '0.6rem',
+  minWidth: '0',
+  p: '0.6rem',
+  color: 'white',
+  background: 'red',
 }));

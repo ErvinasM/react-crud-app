@@ -23,7 +23,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
   const navigate = useNavigate();
   return (
-  <Stack sx={{ border: 1.6, borderColor: '#efefef', borderRadius: '15px', p: 3, gap: 1, boxShadow: '#f4f4f4a1 0px 0px 7px 1px', cursor: 'pointer' }}>
+  <Stack sx={{ border: 1.6, borderColor: '#efefef', borderRadius: '15px', p: 3,
+   gap: 1, boxShadow: '#f4f4f4a1 0px 0px 7px 1px', cursor: 'pointer' }}>
     <Img src={images[0]} alt="" sx={{ aspectRatio: '1.2', width: 1, borderRadius: '15px', objectFit: 'contain', background: '#f9f8f8' }} />
     <Styled.ProductCardContent>
       <Box sx={{ flexGrow: 1 }}>
