@@ -12,6 +12,7 @@ import {
   FormControl,
   Select,
   MenuItem,
+  Autocomplete,
 
 } from '@mui/material';
 import CategoryOutlinedIcon from '@mui/icons-material/CategoryOutlined';
@@ -28,7 +29,7 @@ import routes from 'navigation/routes';
 const ProductFormPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [product, loadingProductData] = useProduct(id);
+  const [product, loadingProductData, catValues] = useProduct(id);
   const formRef = React.useRef<undefined | HTMLFormElement>(undefined);
   const mode = id !== undefined ? 'edit' : 'create';
   const {
@@ -37,7 +38,7 @@ const ProductFormPage = () => {
     color,
     colorMain,
   } = getModeData(mode);
-
+  
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
@@ -61,14 +62,14 @@ const ProductFormPage = () => {
   };
 
   if (loadingProductData) return null;
-
   return (
     <Styled.PageLayout>
       <Styled.Paper elevation={6}>
         <Stack sx={{ gap: 2, alignItems: 'center' }} component="form" onSubmit={handleSubmit} ref={formRef}>
           <Typography sx={{fontSize: '1.6rem', alignItems: 'center', display: 'flex'}} variant="h4"><CategoryOutlinedIcon sx={{ fontSize: '1.6rem', mr: '1rem'}} />Add new product</Typography>
           <TextField name="title" color={color} defaultValue={product?.title} label="Title" fullWidth variant="filled" size="small"/>
-          <TextField name="category" label="Category" defaultValue={product?.category} fullWidth variant="filled" size="small"/>
+          <Autocomplete freeSolo disablePortal id="combo-box-demo" options={Object.keys(catValues)} fullWidth size="small" defaultValue={product?.category} renderInput={(params) => <TextField  variant="filled" name="category" label="Category" {...params} />}
+/>
           <TextField name="price" label="Price" color={color} type="number" inputProps={{ step: '0.01' }} fullWidth variant="filled" size="small" defaultValue={product?.price.slice(0, -1)}/>
           <SelectField defaultInventory={product?.inventory}/>
           <TextField name="body" label="Description" defaultValue={product?.body} fullWidth variant="filled" size="small" multiline rows={4}/>

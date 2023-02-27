@@ -7,3 +7,7 @@ type ProductModel = {
   category: string,
   inventory: string,
 };
+
+type CategoryModel = {
+  [key: string]: number;
+};

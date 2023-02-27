@@ -67,6 +67,7 @@ const ApiService = {
   addProduct,
   updateProduct,
   deleteProduct,
+  getAllCategories,
 };
 
 export default ApiService;
