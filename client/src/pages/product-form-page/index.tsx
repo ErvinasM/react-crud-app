@@ -29,7 +29,7 @@ import routes from 'navigation/routes';
 const ProductFormPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [product, loadingProductData, catValues] = useProduct(id);
+  const [product, loadingProductData] = useProduct(id);
   const formRef = React.useRef<undefined | HTMLFormElement>(undefined);
   const mode = id !== undefined ? 'edit' : 'create';
   const {
@@ -39,6 +39,14 @@ const ProductFormPage = () => {
     colorMain,
   } = getModeData(mode);
   
+  const [catValues, setCategories] = React.useState<CategoryModel>([]);
+
+  React.useEffect(() => {
+    (async () => {
+      const fetchedCategories = await ApiService.getAllCategories();
+      setCategories(fetchedCategories);
+    })();
+  }, []);
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();

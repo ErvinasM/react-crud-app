@@ -1,53 +1,60 @@
-# React CRUD App
-This is an CodeAcademy React CRUD application exam;
+## React CRUD Application
 
-## System requirements
-* [Node.js](https://nodejs.org/en/) v16 or later
-  
-To view application, you must launch server and client apps.
-Make sure you lauched Server application first, only then Client.
+This application allows users to perform various functions related to vehicles such as viewing, adding, editing, and deleting.
 
+### Features & Functions
 
-## Launching Server application
-<div style="padding-left: 40px">
+- **Viewing:** Users can view the list of products.
+- **Adding:** Users can add new products to the database with information like name, description, category, etc.
+- **Editing:** Users can edit the information of existing products in the database.
+- **Deleting:** Users can delete products from the database.
 
-### Installation
-Open terminal in __./server__ folder and run: 
+### Viewing products
 
-```bash
-npm install
+![Alt text](/gifs/db-output.gif "Viewing products")
+
+### Adding products
+
+![Alt text](/gifs/db-add.gif "Adding products")
+
+### Updating products
+
+![Alt text](/gifs/db-update.gif "Updating products")
+
+### Deleting products
+
+![Alt text](/gifs/db-delete.gif "Deleting products")
+
+### Responsive design
+
+![Alt text](/gifs/responsive.gif "Responsive design")
+
+### Technical details
+
+The application is built using Material UI for styling, React for the frontend, Node.js for the backend, Splide.js for the image slider, TypeScript for type safety, Eslint for linting, JSON Server for the mock database, Material UI Icons for icons, and Uniqid for generating unique IDs.
+
+### Requirements
+
+- **[Node.js](https://nodejs.org/en/)** *(v15 or higher)*
+- **[Typescript](https://www.typescriptlang.org/)** *(v4 or higher)* - support for better code maintainability and scalability
+- **[Eslint](https://eslint.org/)** *(with TypeScript plugin)* - for linting and code quality checks
+
+### Getting Started
+
+1. Clone the repository
 ```
-
-### Launch
-Open terminal in __./server__ folder and run:
-```bash
-npm run server
-``` 
-</div>
-
-## Launching Client application
-
-<div style="padding-left: 40px">
-
-### Installation
-Open terminal in __./client__ folder and run:
-```bash
-npm install
+$ git clone https://github.com/ErvinasM/react-crud-app.git
 ```
-
-### Launch for development
-Open terminal in __./client__ folder and run:
-```bash
-npm start
+2. Install dependencies
 ```
-
-### Launch for production
-Open terminal in __./client__ folder and run:
-```bash
-npm run build
+$ npm install
 ```
-</div>
-
-
-## View Code
-You can view code in [online GitHub editor](https://github.dev/ZilvinasVidmantas/type-14/tree/main/React%20%5B73-91%5D).
+3. Run the client side (open "Client" in terminal)
+```
+$ npm run start
+```
+4. Run the server side (open "Server" in terminal)
+```
+$ npm run server
+```
+5. Visit [http://localhost:5173](http://localhost:5173) in your browser
