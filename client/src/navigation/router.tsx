@@ -17,16 +17,16 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: routes.AdminPage,
-        element: <AdminPage />,
-      },
-      {
         path: routes.ProductFormPage,
         element: <ProductFormPage />,
       },
       {
         path: routes.SingleProductPage.path,
         element: <SingleProductPage />,
+      },
+      {
+        path: routes.AdminPage,
+        element: <AdminPage />,
       },
     ],
   },
