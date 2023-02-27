@@ -1,13 +1,10 @@
 import React from 'react';
 import ApiService from 'services/api-service';
-import { useNavigate } from 'react-router-dom';
-import routes from 'navigation/routes';
 import * as Styled from './styled';
 import ProductCard from './product-card';
 
 const HomePage = () => {
   const [products, setProducts] = React.useState<ProductModel[]>([]);
-  const navigate = useNavigate();
 
   React.useEffect(() => {
     (async () => {
