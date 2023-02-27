@@ -41,11 +41,23 @@ const updateProduct = async (id: string, productData: Omit<ProductModel, 'id'>) 
   return response.data;
 };
 
+const getAllCategories = async () => {
+  const response = await api.get<ProductModel[]>('/products');
+  const categories: { [key: string]: number } = {};
+
+  response.data.forEach((product) => {
+    if (product.category in categories) {
+      categories[product.category]++;
+    } else {
+      categories[product.category] = 1;
+    }
+  });
+
+  return categories;
+};
+
 const deleteProduct = async (id: string | number) => {
   await api.delete(`products/${id}`)
-  .then(response => {
-    console.log(response+"istrinta")
-  });
 }
 
 const ApiService = {

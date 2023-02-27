@@ -20,11 +20,14 @@ import SelectField from './selectField';
 import * as Styled from './styled';
 import ImagesField from './imagesField';
 import { getModeData } from './data';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import useProduct from 'hooks/use-product';
+import ApiService from 'services/api-service';
+import routes from 'navigation/routes';
 
 const ProductFormPage = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const [product, loadingProductData] = useProduct(id);
   const formRef = React.useRef<undefined | HTMLFormElement>(undefined);
   const mode = id !== undefined ? 'edit' : 'create';
@@ -35,22 +38,24 @@ const ProductFormPage = () => {
     colorMain,
   } = getModeData(mode);
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
 
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    
     try {
       const values = getProductFormValues(formRef.current);
       if (mode === 'create') {
-        console.log(values);
+        await ApiService.addProduct(values);
+        navigate(routes.AdminPage);
       } else {
-        console.log('Vykdomas atnaujinimas');
-        console.log({ id, ...values });
+        await ApiService.updateProduct(id as any, values);
+        navigate(routes.AdminPage);
       }
     } catch (error) {
       if (error instanceof Error) {
         alert(error.message);
       } else {
-        alert('Error on formn submit. Contact system administrator.');
+        alert('Error submiting form data. Please contact a developer.');
       }
     }
   };

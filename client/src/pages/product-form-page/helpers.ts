@@ -26,7 +26,7 @@ const isStringArray = (
   
     const body = formData.get('body');
     if (typeof body !== 'string') throw new Error('Missing description');
-    if (body.length < 1) throw new Error('description must have at least 1 number');
+    if (body.length < 2) throw new Error('description must have at least 2 symbols');
   
     const images = formData.getAll('images');
     if (!isStringArray(images)) throw new Error('All images must be strings');

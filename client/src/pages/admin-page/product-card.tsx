@@ -29,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   return (
   <Stack sx={{ border: 1.6, borderColor: '#efefef', borderRadius: '15px',
    p: 2, gap: 1, boxShadow: '#f4f4f4a1 0px 0px 7px 1px', cursor: 'pointer' }}>
-    <Img src={images[0]} alt="" sx={{ aspectRatio: '1.2', width: 1, borderRadius: '15px', objectFit: 'contain', background: '#f9f8f8' }} />
+    <Img onClick={() => navigate(routes.UpdateProductPage.createLink(id))} src={images[0]} alt="" sx={{ aspectRatio: '1.2', width: 1, borderRadius: '15px', objectFit: 'contain', background: '#f9f8f8' }} />
     <Styled.ProductCardContent>
       <Box sx={{ flexGrow: 1 }}>
         <Typography sx={{ fontSize: '1.2rem', fontWeight: 400 }}>{title}</Typography>
