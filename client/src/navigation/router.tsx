@@ -28,6 +28,10 @@ const router = createBrowserRouter([
         path: routes.AdminPage,
         element: <AdminPage />,
       },
+      {
+        path: routes.UpdateProductPage.path,
+        element: <ProductFormPage />,
+      },
     ],
   },
 ]);

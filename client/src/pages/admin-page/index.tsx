@@ -17,6 +17,8 @@ const AdminPage = () => {
     })();
   }, []);
 
+
+
   return (
     <Container sx={{p: '1.5rem'}}>
       <Button sx={{ml: '20px', color: 'white', fontWeight: '300', textTransform: 'capitalize', p: '5px 15px'}} onClick={() => navigate(routes.ProductFormPage)}>

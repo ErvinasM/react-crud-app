@@ -11,6 +11,16 @@ import { useNavigate } from 'react-router-dom';
 import routes from 'navigation/routes';
 import Img from 'components/ui/img';
 import * as Styled from './styled';
+import ApiService from 'services/api-service';
+
+const hDel = async (id) => {
+  try {
+    await ApiService.handleDelete(id);
+    console.log(`Data with ID ${id} deleted successfully.`);
+  } catch (error) {
+    console.error(error);
+  }
+};
 
 type ProductCardProps = ProductModel;
 
@@ -37,10 +47,10 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <Typography sx={{ fontSize: '1rem', fontWeight: 400 }}>{price}</Typography>
         
         <Box sx={{display: 'flex', gap: '5px'}}>
-          <Styled.EditButton onClick={() => navigate(routes.SingleProductPage.createLink(id))}>
+          <Styled.EditButton  onClick={() => navigate(routes.UpdateProductPage.createLink(id))}>
           <EditOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Styled.EditButton>
 
-          <Styled.DeleteButton onClick={() => navigate(routes.SingleProductPage.createLink(id))}>
+          <Styled.DeleteButton onClick={() => hDel(id)}>
           <DeleteOutlinedIcon sx={{ width: '1rem', height: '1rem'}} /></Styled.DeleteButton>
         </Box>
       </Box>

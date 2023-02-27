@@ -27,11 +27,19 @@ const fetchProductsByCategory = async (category: string | number) => {
   return response.data;
 };
 
+const handleDelete = async (id: string | number) => {
+  await api.delete(`products/${id}`)
+  .then(response => {
+    console.log(response+"istrinta")
+  });
+}
+
 
 const ApiService = {
   fetchProducts,
   fetchProduct,
   fetchProductsByCategory,
+  handleDelete,
 };
 
 export default ApiService;
