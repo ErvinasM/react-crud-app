@@ -14,6 +14,19 @@
       ]
     },
     {
+      "id": "2",
+      "title": "Organic Vitamin C",
+      "category": "Supplements",
+      "price": "30.00€",
+      "inventory": "In Stock",
+      "body": "Vitamin C is necessary for the formation and functioning of the body's connective tissue. The vitamin is an antioxidant that can inactivate free radicals and helps protect cells and maintain normal immune system function. Each daily serving provides 225% of the RDI of vitamin C (180 ng) and is rich in polyphenols, which, along with other dietary antioxidants such as vitamin C, are antioxidants that protect the body's tissues from oxidative stress and related diseases such as such as cancer, coronary heart disease and inflammation.",
+      "images": [
+        "/images/vitaminc.png",
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-1200x1198-1.jpg",
+        "https://endoca.lt/wp-content/uploads/2022/03/VITAMIN-C3.jpeg"
+      ]
+    },
+    {
       "id": "3",
       "title": "Hemp Chlorophyll",
       "category": "Supplements",

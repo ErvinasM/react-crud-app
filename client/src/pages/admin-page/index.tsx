@@ -10,6 +10,12 @@ const AdminPage = () => {
   const [products, setProducts] = React.useState<ProductModel[]>([]);
   const navigate = useNavigate();
 
+  const handleDelete = async (id: string) => {
+    await ApiService.deleteProduct(id);
+    const fetchedProducts = await ApiService.fetchProducts();
+    setProducts(fetchedProducts);
+  };
+
   React.useEffect(() => {
     (async () => {
       const fetchedProducts = await ApiService.fetchProducts();
@@ -25,7 +31,7 @@ const AdminPage = () => {
         Add new product
       </Button>
       <Styled.ProductsGrid>
-        {products.map((productProps) => (<ProductCard key={productProps.id} {...productProps} />))}
+        {products.map((productProps) => (<ProductCard handleDelete={() => { if (window.confirm(`Are you sure you wish to delete ${productProps.title} product?`)) handleDelete(productProps.id)}} key={productProps.id} {...productProps} />))}
       </Styled.ProductsGrid>
     </Container>
   );
