@@ -49,11 +49,11 @@ $ git clone https://github.com/ErvinasM/react-crud-app.git
 ```
 $ npm install
 ```
-3. Run the client side (open "Client" in terminal)
+3. Run the client side (open ./client folder in terminal)
 ```
 $ npm run start
 ```
-4. Run the server side (open "Server" in terminal)
+4. Run the server side (open ./client folder in terminal)
 ```
 $ npm run server
 ```
